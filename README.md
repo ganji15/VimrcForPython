@@ -24,7 +24,7 @@
 * pylint --generate-rcfile > /etc/pylintrc
 * sudo gedit /etc/pylintrc
  - find out \[MESSAGE CONTROL\] modle
- - add "[#disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
+ - add "[disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
  - save changes and exit
 
 ###6 go to vim, run ":BundleInstall"
