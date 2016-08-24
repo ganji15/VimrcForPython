@@ -4,9 +4,9 @@
 ###1 git clone https://github.com/ganji15/PythonVimPlugin.git
 ###2 cd PythonVimPlugin, then cp .vim and .vimrc to ~
 ###3 install [ctags](#ctags) and [jedi](#jedi) and [pylint](#pylint)
-* ####a) sudo apt-get install ctags 
-* ####b) pip install jedi
-* ####c) sudo apt-get install pylint
+1. sudo apt-get install ctags 
+2. pip install jedi
+3. sudo apt-get install pylint
 
 ###4 generate tags
 * cd /usr/local/
