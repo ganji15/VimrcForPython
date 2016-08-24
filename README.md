@@ -17,8 +17,8 @@
 * sudo chmod 777 /etc/pylintrc
 * pylint --generate-rcfile > /etc/pylintrc
 * sudo gedit /etc/pylintrc
-*- find out \[MESSAGE CONTROL\]
-*- add "[#disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
+ - find out \[MESSAGE CONTROL\] modle
+ - add "[#disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
 
 ###6 go to vim, run ":BundleInstall"
 ###7 compile YouCompleteMe
