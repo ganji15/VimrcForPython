@@ -1,8 +1,14 @@
 # VimrcForPyhon
 
 ## Installation
+
 ###1 git clone https://github.com/ganji15/VimrcForPyhon.git
-###2 cd VimrcForPyhon && mv vim ~/.vim && mv vimrc ~/.vimrc
+
+###2 copy to ~/.vim && ~/.vimrc
+* cd VimrcForPyhon
+* mv vim ~/.vim
+* mv vimrc ~/.vimrc
+* 
 ###3 install [ctags](#ctags) and [jedi](#jedi) and [pylint](#pylint)
 * sudo apt-get install ctags 
 * pip install jedi
