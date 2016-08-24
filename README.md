@@ -16,6 +16,7 @@
 * sudo touch /etc/pylintrc
 * sudo chmod 777 /etc/pylintrc
 * pylint --generate-rcfile > /etc/pylintrc
+* sudo gedit /etc/pylintrc, find \[MESSAGE CONTROL\] and add "[#pylint-disable](#disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace)"
 * custum your own pylintrc, more details in https://docs.pylint.org/message-control
 
 ###6 go to vim, run ":BundleInstall"
@@ -38,4 +39,4 @@
 | pydocstring | add doc string | press <ctrl-a> to add doc string|
 
 ## Window
-![Window](https://github.com/ganji15/PythonVimPlugin/blob/master/python-vim-plugin.png)
+![Window](https://github.com/ganji15/VimrcForPyhon/blob/master/python-vim-plugin.png)
