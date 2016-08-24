@@ -165,6 +165,7 @@ let g:NERDTreeWinSize = 30
  nnoremap <c-l> <c-w>l
 
  autocmd VIMenter *.py :NERDTreeToggle
+ autocmd VIMenter *.py :wincmd l
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
