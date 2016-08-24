@@ -4,7 +4,7 @@
 
 ###1 git clone https://github.com/ganji15/VimrcForPyhon.git
 
-###2 copy to ~/.vim && ~/.vimrc
+###2 copy vimplugins to ~/.vim && ~/.vimrc
 * cd VimrcForPyhon
 * mv vim ~/.vim
 * mv vimrc ~/.vimrc
