@@ -1,0 +1,28 @@
+" let Vundle manage Vundle, required
+" Plugin 'VundleVim/Vundle.vim'
+" Plugins
+" status bar
+ Plugin 'Lokaltog/vim-powerline'
+" ()[] completation
+ Plugin 'delimitMate.vim'
+ Plugin 'Mark--Karkat'
+ " nevagator
+ Plugin 'scrooloose/nerdtree'
+ " function nevagator
+ Plugin 'majutsushi/tagbar'
+ " code fold
+ Plugin 'tmhedberg/SimpylFold'
+ " file finder
+ Plugin 'ctrlpvim/ctrlp.vim'
+ " code zhushi commenter
+ Plugin 'scrooloose/nerdcommenter'
+ Plugin 'pydoc.vim'
+ Plugin 'heavenshell/vim-pydocstring'
+ " code complete
+ Plugin 'Valloric/YouCompleteMe'
+ " python complete
+ Plugin 'davidhalter/jedi'
+ " heigh light code
+ Plugin 'scrooloose/syntastic'
+ " code templete
+ Plugin 'SirVer/ultisnips'
