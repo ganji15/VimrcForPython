@@ -4,9 +4,9 @@
 ###1 git clone https://github.com/ganji15/PythonVimPlugin.git
 ###2 cd PythonVimPlugin, then cp .vim and .vimrc to ~
 ###3 install [ctags](#ctags) and [jedi](#jedi) and [pylint](#pylint)
-1. sudo apt-get install ctags 
-2. pip install jedi
-3. sudo apt-get install pylint
+* sudo apt-get install ctags 
+* pip install jedi
+* sudo apt-get install pylint
 
 ###4 generate tags
 * cd /usr/local/
@@ -16,7 +16,9 @@
 * sudo touch /etc/pylintrc
 * sudo chmod 777 /etc/pylintrc
 * pylint --generate-rcfile > /etc/pylintrc
-* sudo gedit /etc/pylintrc, find \[MESSAGE CONTROL\] and add "[#disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
+* sudo gedit /etc/pylintrc
+*- find out \[MESSAGE CONTROL\]
+*- add "[#disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
 
 ###6 go to vim, run ":BundleInstall"
 ###7 compile YouCompleteMe
