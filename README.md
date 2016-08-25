@@ -19,7 +19,7 @@
 * sudo ctags -R /usr/local/lib/python2.7/dist-packages/
 
 ###5 configure pylint
-* make sure pylint version is higher than 1.4
+* make sure pylint version is higher than 1.4, run "pylint --version" to check the version.
 * sudo touch /etc/pylintrc
 * sudo chmod 777 /etc/pylintrc
 * pylint --generate-rcfile > /etc/pylintrc
