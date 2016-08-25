@@ -12,17 +12,19 @@
 ###3 install [ctags](#ctags) and [jedi](#jedi) and [pylint](#pylint)
 * sudo apt-get install ctags 
 * pip install jedi
-* sudo apt-get install pylint
+* pip install pylint
 
 ###4 generate tags
 * cd /usr/local/
 * sudo ctags -R /usr/local/lib/python2.7/dist-packages/
 
 ###5 configure pylint
+* make sure pylint version is higher than 1.4
 * sudo touch /etc/pylintrc
 * sudo chmod 777 /etc/pylintrc
 * pylint --generate-rcfile > /etc/pylintrc
 * sudo gedit /etc/pylintrc
+ - change "unsafe-load-any-extensions=n" to "unsafe-load-any-extensions=y"
  - find out \[MESSAGE CONTROL\] modle
  - add "[disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
  - save changes and exit
