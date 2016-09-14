@@ -143,7 +143,7 @@ endif
 "宽度
 let g:NERDTreeWinSize = 30
 "忽略文件、隐藏文件
- let NERDTreeIgnore = ['\.pyc$', 'tag']
+ let NERDTreeIgnore = ['\.pyc$', 'tag', '\.so$', '\.pyproj$', '\.pyd$', '\.py\~$']
  let NERDTreeSortOrder=['\/$', 'Makefile', 'makefile', '*', '\~$']
  "nmap wm :NERDTreeToggle<cr>
 "关闭当前窗口
