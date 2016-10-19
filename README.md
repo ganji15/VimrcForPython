@@ -35,6 +35,8 @@
 
 ###7 compile YouCompleteMe
 * More details:https://github.com/Valloric/YouCompleteMe
+* cd ~/.vim/bundle/YouCompleteMe
+* ./install.py --clang-completer
 
 ## Features
 | Plugins        | Features | key trigger  |
