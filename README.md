@@ -29,7 +29,10 @@
  - add "[disable=line-too-long, missing-docstring, wildcard-import, unused-wildcard-import, bad-whitespace, trailing-whitespace](#pylint-disable)"
  - save changes and exit
 
-###6 go to vim, run ":BundleInstall"
+###6 Install plugins
+* git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+* go to vim, run ":BundleInstall"
+
 ###7 compile YouCompleteMe
 * More details:https://github.com/Valloric/YouCompleteMe
 
