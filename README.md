@@ -8,6 +8,7 @@
 * cd VimrcForPyhon
 * mv vim ~/.vim
 * mv vimrc ~/.vimrc
+* cd ~/.vim/bundle  & git clone https://github.com/VundleVim/Vundle.vim.git
 
 ###3 install [ctags](#ctags) and [jedi](#jedi) and [pylint](#pylint)
 * sudo apt-get install ctags 
